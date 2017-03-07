@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afoninsky/connection-url-parser.git"
+    "url": "git+https://github.com/afoninsky/connection-parser.git"
   },
   "author": "Andrey Afoninsky",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afoninsky/connection-url-parser/issues"
+    "url": "https://github.com/afoninsky/connection-parser/issues"
   },
   "engines": {
     "node": ">=6.0.0"
   },
-  "homepage": "https://github.com/afoninsky/connection-url-parser#readme",
+  "homepage": "https://github.com/afoninsky/connection-parser#readme",
   "devDependencies": {
     "ava": "^0.18.2",
     "coveralls": "^2.12.0",
