@@ -1,0 +1,44 @@
+{
+  "name": "connection-url-parser",
+  "version": "1.0.0",
+  "description": "A Microservices Framework for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src && nyc ava && nyc report --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afoninsky/bishop.git"
+  },
+  "author": "Andrey Afoninsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afoninsky/bishop/issues"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "homepage": "https://github.com/afoninsky/bishop#readme",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "^3.14.0",
+    "eslint-plugin-output-todo-comments": "0.0.7",
+    "nyc": "^10.1.2"
+  },
+  "dependencies": {
+    "bloomrun": "^3.0.3",
+    "bluebird": "^3.4.7",
+    "lodash": "^4.17.4"
+  },
+  "ava": {
+    "verbose": true,
+    "source": [
+      "**/*js"
+    ]
+  },
+  "nyc": {
+    "include": [
+      "src/**.js"
+    ]
+  }
+}
