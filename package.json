@@ -1,6 +1,6 @@
 {
   "name": "connection-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Connection string smart parser",
   "main": "src/index.js",
   "scripts": {
