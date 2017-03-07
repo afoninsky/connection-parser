@@ -2,9 +2,9 @@
   "name": "connection-url-parser",
   "version": "1.0.0",
   "description": "Convert url into connection object",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "eslint index.js && nyc ava && nyc report --reporter=html"
+    "test": "eslint src && nyc ava && nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "nyc": "^10.1.2"
   },
   "dependencies": {
+    "ajv": "^4.11.4"
   },
   "ava": {
     "verbose": true,
