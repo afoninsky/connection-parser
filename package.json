@@ -1,24 +1,24 @@
 {
   "name": "connection-url-parser",
   "version": "1.0.0",
-  "description": "A Microservices Framework for Node.js",
+  "description": "Convert url into connection object",
   "main": "index.js",
   "scripts": {
-    "test": "eslint src && nyc ava && nyc report --reporter=html"
+    "test": "eslint index.js && nyc ava && nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afoninsky/bishop.git"
+    "url": "git+https://github.com/afoninsky/connection-url-parser.git"
   },
   "author": "Andrey Afoninsky",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afoninsky/bishop/issues"
+    "url": "https://github.com/afoninsky/connection-url-parser/issues"
   },
   "engines": {
     "node": ">=7.6.0"
   },
-  "homepage": "https://github.com/afoninsky/bishop#readme",
+  "homepage": "https://github.com/afoninsky/connection-url-parser#readme",
   "devDependencies": {
     "ava": "^0.18.2",
     "eslint": "^3.14.0",
@@ -26,9 +26,6 @@
     "nyc": "^10.1.2"
   },
   "dependencies": {
-    "bloomrun": "^3.0.3",
-    "bluebird": "^3.4.7",
-    "lodash": "^4.17.4"
   },
   "ava": {
     "verbose": true,
