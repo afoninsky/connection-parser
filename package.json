@@ -1,7 +1,7 @@
 {
   "name": "connection-parser",
   "version": "1.0.0",
-  "description": "Smart connection string parser",
+  "description": "Connection string smart parser",
   "main": "src/index.js",
   "scripts": {
     "test": "eslint src && nyc ava && nyc report --reporter=html"
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/afoninsky/connection-url-parser#readme",
   "devDependencies": {
     "ava": "^0.18.2",
+    "coveralls": "^2.12.0",
     "eslint": "^3.14.0",
     "eslint-plugin-output-todo-comments": "0.0.7",
     "nyc": "^10.1.2"

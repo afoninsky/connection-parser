@@ -80,3 +80,14 @@ will convert port into integer value and add default missing parameter:
   path: '/my-base',
   options: { timeout: 1000 } }
 ```
+
+
+[JSON schems]: http://json-schema.org
+[travis]: https://travis-ci.org/afoninsky/connection-parser
+[badge-travis]: https://travis-ci.org/afoninsky/connection-parser.svg?branch=master
+[coveralls]: https://coveralls.io/github/afoninsky/connection-parser?branch=master
+[badge-coveralls]: https://coveralls.io/repos/github/afoninsky/connection-parser/badge.svg?branch=master
+[deps]: https://david-dm.org/afoninsky/connection-parser
+[badge-deps]: https://david-dm.org/afoninsky/connection-parser.svg
+[npm]: https://www.npmjs.com/package/connection-parser
+[badge-npm]: https://badge.fury.io/js/connection-parser.svg
