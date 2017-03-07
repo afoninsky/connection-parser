@@ -1,7 +1,7 @@
 {
-  "name": "connection-url-parser",
+  "name": "connection-parser",
   "version": "1.0.0",
-  "description": "Convert url into connection object",
+  "description": "Smart connection string parser",
   "main": "src/index.js",
   "scripts": {
     "test": "eslint src && nyc ava && nyc report --reporter=html"
